@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Orange County HCV Calculator</title>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="assets/javascript/logic.js"></script>
+    </head>
+
+    <body>
+        <div id="title-box">
+            <h1>HCV Calculator</h1>
+        </div>
+
+        <div class="info-box">
+            
+            <form id="frm1">
+                <div id="info-title">
+                    <h4>Gross Annual Income</h4>
+                </div>
+                <label for="gross-income">$</label>
+                <input type="number" id="gross-income" name="gross-income">
+                <br>
+                <div id="info-title">
+                    <h4>Deductions</h4>
+                </div>
+                <label for="deductions">$</label>
+                <input type="number" id="deductions" name="deductions">
+                <br>
+                <div id="info-title">
+                    <h4>Bedroom Size</h4>
+                </div>
+                <label for="bedroom-number">Quantity (between 1-6)</label>
+                <input type="number" id="bedroom-number" name="bedroom-number" min="1" max="6">
+                <br>
+                <input type="submit" value="Calculate">
+            </form>
+
+        </div>
+
+    </body>
+</html>
